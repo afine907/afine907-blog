@@ -52,6 +52,29 @@ technical-articles/
 ## 参考资料
 ```
 
+## 在线访问
+
+本项目使用 GitHub Pages + Docsify 部署，无需构建，直接渲染 Markdown 文件。
+
+**访问地址**: https://afine907.github.io/technical-articles/
+
+### 本地预览（可选）
+
+如果你想在本地预览，可以启动一个简单的 HTTP 服务器：
+
+```bash
+cd docs
+python3 -m http.server 3000
+# 访问 http://localhost:3000
+```
+
+或者使用 Docsify CLI：
+
+```bash
+npm i -g docsify-cli
+docsify serve docs
+```
+
 ## License
 
 MIT
