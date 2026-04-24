@@ -33,6 +33,8 @@ afine907.github.io/
 - [Agent 流式响应实现](https://afine907.github.io/#/articles/ai/Agent-流式响应实现)
 - [Agent 错误处理与重试机制](https://afine907.github.io/#/articles/ai/Agent-错误处理与重试机制)
 - [Agent 性能监控与调优](https://afine907.github.io/#/articles/ai/Agent-性能监控与调优)
+- [Agent 安全威胁与防御策略](https://afine907.github.io/#/articles/ai/Agent-安全威胁与防御策略)
+- [Agent 多模型降级策略](https://afine907.github.io/#/articles/ai/Agent-多模型降级策略)
 
 ## 🚀 本地预览
 
