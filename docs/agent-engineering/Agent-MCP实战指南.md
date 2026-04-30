@@ -1,6 +1,7 @@
 ---
 sidebar_position: 10
 title: Agent + MCP：从原理到实战，一次讲清楚
+slug: mcp-guide
 ---
 
 

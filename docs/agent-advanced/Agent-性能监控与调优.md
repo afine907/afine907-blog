@@ -1,7 +1,9 @@
 ---
+slug: performance-monitoring
 sidebar_position: 1
 title: 如何知道你的 Agent 跑得好不好？
 ---
+slug: performance-monitoring
 
 # 如何知道你的 Agent 跑得好不好？
 
@@ -204,5 +206,6 @@ print(f"工具耗时: {metrics.tool_timings}")
 3. **设置告警**：响应时间 > 5秒时发通知
 
 ---
+slug: performance-monitoring
 
 监控不是目的，定位问题才是。先有数据，再谈优化。

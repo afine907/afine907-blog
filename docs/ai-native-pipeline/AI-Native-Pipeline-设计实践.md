@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /AI-Native-Pipeline-设计实践
+slug: /pipeline-design
 ---
 
 # AI Native Pipeline：从需求到代码的全自动开发流水线

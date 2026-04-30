@@ -1,7 +1,9 @@
 ---
+slug: memory-system
 sidebar_position: 11
 title: Agent 记忆系统：从对话历史到向量数据库
 ---
+slug: memory-system
 
 
 你做了一个客服 Agent。
@@ -23,6 +25,7 @@ Agent 回答："我不知道你的背景，无法推荐。"
 这篇文章，我来系统讲 Agent 记忆系统，帮你彻底搞懂。
 
 ---
+slug: memory-system
 
 ## 一、为什么 Agent 记忆是个问题？
 
@@ -74,6 +77,7 @@ Agent 的记忆问题，跟人类很像。
 Agent 也一样：不是记住所有，而是记住重要的，需要时能找到。
 
 ---
+slug: memory-system
 
 ## 二、记忆的三层架构
 
@@ -191,6 +195,7 @@ class LongTermMemory:
 ```
 
 ---
+slug: memory-system
 
 ## 三、方案一：对话历史（最简单）
 
@@ -252,6 +257,7 @@ memory.add("user", "给我推荐文章")
 - 不需要长期记忆
 
 ---
+slug: memory-system
 
 ## 四、方案二：会话摘要（改进版）
 
@@ -351,6 +357,7 @@ class IncrementalSummaryMemory(SummaryMemory):
 - 可接受摘要成本
 
 ---
+slug: memory-system
 
 ## 五、方案三：向量数据库（进阶版）
 
@@ -472,6 +479,7 @@ def recall_by_type(self, query: str, memory_type: str) -> list[str]:
 ```
 
 ---
+slug: memory-system
 
 ## 六、向量数据库选型
 
@@ -537,6 +545,7 @@ CREATE TABLE memories (
 **结论**：生产环境推荐 Qdrant 或 Milvus。
 
 ---
+slug: memory-system
 
 ## 七、检索策略
 
@@ -619,6 +628,7 @@ def should_recall(self, query: str) -> bool:
 ```
 
 ---
+slug: memory-system
 
 ## 八、记忆压缩与清理
 
@@ -694,6 +704,7 @@ def score_memory(self, memory: dict) -> float:
 ```
 
 ---
+slug: memory-system
 
 ## 九、完整记忆系统实现
 
@@ -828,6 +839,7 @@ class AgentMemorySystem:
 ```
 
 ---
+slug: memory-system
 
 ## 十、效果对比
 
@@ -857,6 +869,7 @@ class AgentMemorySystem:
 | 向量数据库 | 高 | 低 | 高（检索） |
 
 ---
+slug: memory-system
 
 ## 十一、我踩过的坑
 
@@ -933,6 +946,7 @@ def recall_with_verification(self, query: str) -> list[str]:
 3. 合并相似记忆
 
 ---
+slug: memory-system
 
 ## 十二、总结
 
@@ -953,6 +967,7 @@ Agent 记忆系统的核心原则：
 | 生产级应用 | 三层组合 |
 
 ---
+slug: memory-system
 
 ## 十三、下一步行动
 
@@ -962,6 +977,7 @@ Agent 记忆系统的核心原则：
 4. **选择存储**：ChromaDB（开发）或 Qdrant（生产）
 
 ---
+slug: memory-system
 
 ## 附录：常用向量数据库对比
 
@@ -975,5 +991,6 @@ Agent 记忆系统的核心原则：
 | pgvector | C | PostgreSQL | 复用现有数据库 |
 
 ---
+slug: memory-system
 
 记忆是 Agent 的灵魂。没有记忆，Agent 只是一个无状态的函数。有了记忆，Agent 才能成长。

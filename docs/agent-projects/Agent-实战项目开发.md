@@ -1,7 +1,9 @@
 ---
+slug: project-development
 sidebar_position: 1
 title: 实战：用 Agent 从零开发一个完整项目
 ---
+slug: project-development
 
 
 理论学了一堆，今天来真格的。
@@ -11,6 +13,7 @@ title: 实战：用 Agent 从零开发一个完整项目
 不是让 Agent 帮你写几行代码，而是让它参与整个开发流程：需求分析、架构设计、代码实现、测试、文档、部署。
 
 ---
+slug: project-development
 
 ## 一、项目规划
 
@@ -142,6 +145,7 @@ todo export <format>  # json/csv
 确认设计没问题后，开始写代码。
 
 ---
+slug: project-development
 
 ## 二、数据模型实现
 
@@ -240,6 +244,7 @@ class Task:
 继续下一个模块。
 
 ---
+slug: project-development
 
 ## 三、数据库层实现
 
@@ -492,6 +497,7 @@ class Database:
 继续下一个模块。
 
 ---
+slug: project-development
 
 ## 四、核心业务逻辑
 
@@ -599,6 +605,7 @@ class TaskManager:
 3. ✅ 类型提示完整
 
 ---
+slug: project-development
 
 ## 五、CLI 入口实现
 
@@ -819,6 +826,7 @@ if __name__ == "__main__":
 4. ✅ 支持颜色输出
 
 ---
+slug: project-development
 
 ## 六、测试实现
 
@@ -1007,6 +1015,7 @@ Coverage: 87%
 ✅ 覆盖率 87%，超过目标。
 
 ---
+slug: project-development
 
 ## 七、项目配置
 
@@ -1081,6 +1090,7 @@ strict = true
 ```
 
 ---
+slug: project-development
 
 ## 八、文档编写
 
@@ -1167,6 +1177,7 @@ MIT License
 ```
 
 ---
+slug: project-development
 
 ## 九、最终成果
 
@@ -1190,6 +1201,7 @@ todo-cli/
 ```
 
 ---
+slug: project-development
 
 ## 十、踩坑记录
 
@@ -1224,6 +1236,7 @@ todo-cli/
 **解决**：加上 `@click.confirmation_option` 确认提示。
 
 ---
+slug: project-development
 
 ## 十一、总结
 
@@ -1241,6 +1254,7 @@ todo-cli/
 **关键点**：人工把控设计和需求，让 Agent 负责重复劳动。
 
 ---
+slug: project-development
 
 ## 十二、下一步行动
 
@@ -1252,5 +1266,6 @@ todo-cli/
 Agent 是编程助手，不是替代品。你提供方向，它负责实现。
 
 ---
+slug: project-development
 
 人和 Agent 协作，才是最高效的开发方式。

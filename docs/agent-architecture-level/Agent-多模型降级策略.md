@@ -1,7 +1,9 @@
 ---
+slug: model-degradation
 sidebar_position: 1
 title: LLM 宕机了怎么办？多模型降级策略
 ---
+slug: model-degradation
 
 # LLM 宕机了怎么办？多模型降级策略
 
@@ -187,5 +189,6 @@ GPT-4 恢复后，请求还是走 GPT-3.5，因为降级后没自动切回来。
 3. **加监控**：记录每次用的是哪个模型，成本多少
 
 ---
+slug: model-degradation
 
 多模型不是为了炫技，是为了省钱和保命。

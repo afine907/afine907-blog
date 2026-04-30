@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /Agent-效果评估实战
+slug: /evaluation
 ---
 
 # Agent 效果评估实战

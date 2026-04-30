@@ -1,7 +1,9 @@
 ---
+slug: streaming-response
 sidebar_position: 1
 title: Agent 流式输出，用户体验翻倍
 ---
+slug: streaming-response
 
 # Agent 流式输出，用户体验翻倍
 
@@ -185,5 +187,6 @@ for (const line of lines) {
 3. **加加载动画**：流式输出时显示"正在思考..."
 
 ---
+slug: streaming-response
 
 核心就一点：不要等完整生成，生成一点就输出一点。用户体验立刻提升。

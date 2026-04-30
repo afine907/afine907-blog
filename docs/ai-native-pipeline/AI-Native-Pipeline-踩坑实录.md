@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /AI-Native-Pipeline-踩坑实录
+slug: /pipeline-lessons
 ---
 
 # AI Native Pipeline 踩坑实录
