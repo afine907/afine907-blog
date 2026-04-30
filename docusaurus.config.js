@@ -100,7 +100,7 @@ const config = {
             ],
           },
         ],
-        copyright: `MIT © 2024-2025 jojo`,
+        copyright: `MIT © 2024-2026 jojo`,
       },
       prism: {
         theme: prismThemes.github,
