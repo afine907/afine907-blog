@@ -360,6 +360,17 @@ pre code {
   color: var(--ifm-color-primary-light);
 }
 
+/* Fix sidebar width in Chrome - scrollbar-gutter causes cut-off */
+.menu_SIkG {
+  scrollbar-gutter: auto !important;
+  padding: 0.5rem !important;
+}
+
+/* Ensure sidebar scrolls properly */
+.sidebarViewport_aRkj {
+  overflow-y: auto;
+}
+
 /* ============================================================
    14. Article Doc Content
    ============================================================ */
